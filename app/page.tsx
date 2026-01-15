@@ -248,7 +248,6 @@ export default function Home() {
       <h1 className="text-2xl font-bold">Face Emotion Detection</h1>
 
       <div>
-        เทส
         สถานะ: {status} <br />
         Emotion: <b>{emotion}</b> ({(conf * 100).toFixed(1)}%)
       </div>
